@@ -64,8 +64,8 @@ body {
 
 .modal {
   position: fixed;
-  top: 0;
-  left: 0;
+  transition: transform 0.3s ease-out;
+  transform: scaleX(0);
   @include fullWidthAndHeight;
   background-color: rgba(0, 0, 0, 0.5);
 
